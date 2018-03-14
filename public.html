@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>云梦县河长制信息管理平台(YunMeng County River Chief Mechanism System)</title>
+<link rel="shortcut icon" href="img/favicon.ico">
+<script type="text/javascript" src="../plugin/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/public.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+</head>
+<body>
+<div id="container">
+	<div id="title"><img src="../img/mobilelogo.gif"></div>
+	<div id="content">
+		<div class='rowbox'>
+			<div class="div-top">河流名称</div>
+			<div id="Name" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">河流长度</div>
+			<div id="Length" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">公示牌号</div>
+			<div id="NumberID" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">河流起点</div>
+			<div id="StartPoint" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">河流终点</div>
+			<div id="EndPoint" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">河长信息</div>
+			<div id="RiverManager" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">河长职责</div>
+			<div id="Duty" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">存在问题</div>
+			<div id="Problem" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">整治目标</div>
+			<div id="Result" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">管护单位</div>
+			<div id="Management" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+		<div class='rowbox'>
+			<div class="div-top">举报电话</div>
+			<div id="Telephone" class="div-center"></div>
+			<div class="blank"></div>
+		</div>
+	</div>
+	<div id='bottom'>
+		<a href="javascript:void(0);" onclick="jumpPublicRiver()">河长公示</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="javascript:void(0);" onclick="jumpPublicInspection()">监督反馈</a>			
+	</div>
+</div>
+</body>
+</html>
